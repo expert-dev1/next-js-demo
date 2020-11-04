@@ -14,3 +14,83 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.top-contributors-text {
+  padding: 30px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #121212;
+}
+
+.rectangle {
+  width: 1370px;
+  height: 1px;
+  left: 35px;
+  top: 143px;
+  background: #C4C4C4;
+}
+
+.icon-circle {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+.inner-text p {
+  margin-bottom: 0;
+}
+
+.list-item {
+  display: inline-block;
+  margin: 0 0 30px 0;
+}
+
+.content-wrapper {
+  background: #FFFFFF;;
+  padding: 15px;
+  position: relative;
+  min-height: 250px;
+}
+
+.content-wrapper .btn {
+  border: 2px solid #4474FF;
+  margin: 10px auto 0 auto;
+  max-width: 200px;
+  display: block;
+}
+
+.avatar {
+  width: 62px;
+  height: 61px;
+  background-size: 100%;
+}
+
+.contributor {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #121212;
+}
+
+.commits {
+  position: relative;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #545454;
+}
+
+.view-repositories {
+  font-family: Open Sans;
+  font-style: normal;
+}
+
+.outer-container{
+  background-color: #E5E5E5;;
+}
